@@ -29,7 +29,7 @@ function discountPrices(prices, discount) {
     const length = prices.length;
     
     for(let i = 0; i < length; i++) {
-        let discountedPrice = prices[i] * (1 - discount);
+        const discountedPrice = prices[i] * (1 - discount);
         discounted.push(discountedPrice);
     }
 
